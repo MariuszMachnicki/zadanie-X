@@ -13,7 +13,7 @@ public class Main {
 
         System.out.println("\n-------------\n");
 
-            Teacher t = new Teacher("Karol", "Okrasa", "Magister", 45, 5000, "Nauczać", "Radom");
+            Teacher t = new Teacher("Karol", "Okrasa", "Magister", 45, 5000, "Nauczać", "Radomiu");
             t.selfIntroduction();
             t.holidayInfo();
             t.reasonAttending();
@@ -22,11 +22,12 @@ public class Main {
             t.scientificWork("kopiujac teksty");
             t.calculateBonus();
 
+        System.out.println("\n---------------\n");
         System.out.println("Wpis do indeksu: ");
 
             ScoreCard sc = new ScoreCard();
             sc.printIndeks();
-        final int srednia = sc.srednia();
-        System.out.println(srednia);
+            sc.zadanko();
+
     }
 }

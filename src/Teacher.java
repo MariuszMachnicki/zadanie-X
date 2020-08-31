@@ -36,7 +36,7 @@ public class Teacher extends Person implements ExamConducter {
 
     @Override
     public void howExam(String exam) {
-        System.out.println("Robie: " + exam);
+        System.out.println(exam);
     }
 
     @Override

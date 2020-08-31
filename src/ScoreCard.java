@@ -1,8 +1,8 @@
+import java.util.Collection;
 import java.util.HashMap;
 import java.util.Map;
 
 public class ScoreCard {
-
 
     Map<String, Integer> subject = new HashMap<String, Integer>();
 
@@ -18,11 +18,6 @@ public class ScoreCard {
         for (String i : subject.keySet()) {
             System.out.println(i + " : " + subject.get(i));
             }
-        }
-        public int srednia() {
-            int oceny = subject.get(wf + biologia + matematyka + informatyka);
-            return oceny;
-
         }
 
 
